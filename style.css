@@ -1,0 +1,211 @@
+/* Global items */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+}
+
+nav a.active{
+    color: #44B2F1;
+}
+
+
+/* Navbar */
+
+nav{
+    background-color: #000;
+    position: relative;
+    height: 66px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 20%;
+}
+
+nav img{
+    position: absolute;
+    top: 15px;
+    left: 20%;
+}
+
+nav li{
+    margin-left: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section */
+
+.hero-section{
+    display: flex;
+    height: 260px;
+    background-color: #053131;
+    color: #fff;
+    border-top: 3px solid aquamarine;
+
+}
+
+.hero-section p{
+    color: #E8EFF4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2rem;
+    left: 20%;
+    max-width: 550px;
+    line-height: 1.2rem;
+}
+
+.hero-section .img-sect{
+    background-image: url('images/spacecraft.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 162px;
+    width: 301px;
+    position: relative;
+    margin-top: 2rem;
+    left: 60%;
+
+}
+.hero-section .img-sect h2{
+    color: #addcfe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.hero-section .img-sect .click{
+    position: absolute;
+    top: 65%;
+    left: 9%;
+    background-color: #125555;
+    padding: 9px 70px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.hero-section .img-sect .click:hover{
+    background-color: #147575;
+    
+}
+
+
+/* Cards */ 
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    background-color: #E8EFF4;
+}
+
+.cards img{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cards div{
+    padding: 0rem 0;
+
+}
+
+.cards h3{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #07304D;
+    font-style: italic;
+    margin: 0.8rem 0;
+}
+
+
+
+.cards p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #07304D;
+    margin: 0.8rem 0;
+    width: 50%;
+    margin-left: 6rem;
+
+}
+
+/* Footer */
+
+footer {
+    background-image: url('images/bg-footer.jpg');
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 238px;
+    line-height: 2.1rem;
+    padding: 2rem;
+}
+
+footer h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer li{
+    color: #7890A1;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+footer input{
+    width: 294px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+}
+
+footer .btn{
+    margin-top: 0.5rem;
+    background-color: #125555;
+    padding: 5px 10px;
+    color: #fff;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+footer .btn:hover{
+    background-color: #147575;;
+
+}
